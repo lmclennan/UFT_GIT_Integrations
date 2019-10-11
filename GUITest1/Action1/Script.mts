@@ -1,6 +1,7 @@
 ﻿
 SystemUtil.Run "C:\Users\chrismclennan\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Firefox.lnk","","",""
 Browser("Browser").Navigate "http://google.com/" @@ hightlight id_;_919610_;_script infofile_;_ZIP::ssf1.xml_;_
+Browser("Browser").Close
 
 Sub test1
 
