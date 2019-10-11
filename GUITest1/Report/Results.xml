@@ -134,7 +134,7 @@
 <DName><![CDATA[GUITest1]]></DName>
 <Res><![CDATA[GUITest1]]></Res>
 <DT rID="T2">
-<NodeArgs eType="Table" icon="6" nRep="4" filter="False" >
+<NodeArgs eType="Table" icon="13" nRep="4" filter="False" >
 <Disp><![CDATA[Run-Time Data Table]]></Disp>
 <BtmPane vType="Table" >
 <Path><![CDATA[Default.xls]]></Path>
@@ -147,101 +147,75 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[SystemUtil]]></Obj>
 <Details plainTxt="False" ><![CDATA[SystemUtil]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:23]]></Time>
-<TimeTick>1570773263</TimeTick>
+<Time><![CDATA[10/11/2019 - 2:03:37]]></Time>
+<TimeTick>1570773817</TimeTick>
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Run "C:\Users\chrismclennan\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Firefox.lnk",1]]></Obj>
 <Details plainTxt="False" ><![CDATA[Run "C:\Users\chrismclennan\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Firefox.lnk",1]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:23]]></Time>
-<TimeTick>1570773263</TimeTick>
-<NodeArgs eType="Replay" icon="9" nRep="11" status="Passed" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/11/2019 - 2:03:37]]></Time>
+<TimeTick>1570773817</TimeTick>
+<NodeArgs eType="Replay" icon="16" nRep="11" status="Passed" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Run "C:\Users\chrismclennan\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Firefox.lnk",1]]></Disp>
 </NodeArgs>
 </Step>
-<NodeArgs eType="Replay" icon="9" nRep="10" status="Passed" Source="Action1" SourceLine="-1" >
+<NodeArgs eType="Replay" icon="16" nRep="10" status="Passed" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[SystemUtil]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Browser]]></Obj>
 <Details plainTxt="False" ><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:25]]></Time>
-<TimeTick>1570773265</TimeTick>
+<Time><![CDATA[10/11/2019 - 2:03:40]]></Time>
+<TimeTick>1570773820</TimeTick>
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Browser.Navigate]]></Obj>
 <Details plainTxt="False" ><![CDATA[Navigate to http://google.com/<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:25]]></Time>
-<TimeTick>1570773265</TimeTick>
-<NodeArgs eType="Replay" icon="10" nRep="14" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/11/2019 - 2:03:40]]></Time>
+<TimeTick>1570773820</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="14" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Browser.Navigate]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T9">
-<Obj plainTxt="False" ><![CDATA[Browser]]></Obj>
-<Details plainTxt="False" ><![CDATA[Object&nbsp;is&nbsp;disabled]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:25]]></Time>
-<TimeTick>1570773265</TimeTick>
+<Obj plainTxt="False" ><![CDATA[Browser.Close]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[10/11/2019 - 2:03:40]]></Time>
+<TimeTick>1570773820</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="15" Source="Action1" SourceLine="-1" >
+<Disp><![CDATA[Browser.Close]]></Disp>
+</NodeArgs>
+</Step>
 <Step rID="T10">
-<Obj plainTxt="False" ><![CDATA[Browser]]></Obj>
-<Details plainTxt="False" ><![CDATA[Object's physical description:<br>Mercury Class = Browser<br>CreationTime = 0<br>]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:25]]></Time>
-<TimeTick>1570773265</TimeTick>
-<NodeArgs eType="Replay" icon="11" nRep="16" status="Warning" nType="Description" Source="Action1" SourceLine="-1" >
+<Obj plainTxt="False" ><![CDATA[Browser.Close All Tabs]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[10/11/2019 - 2:03:40]]></Time>
+<TimeTick>1570773820</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="17" Source="Action1" SourceLine="-1" >
+<Disp><![CDATA[Browser.Close All Tabs]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="17" nRep="13" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Browser]]></Disp>
 </NodeArgs>
 </Step>
-<NodeArgs eType="Replay" icon="10" nRep="15" status="Failed" nType="Run Error" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Browser]]></Disp>
-</NodeArgs>
-</Step>
-<NodeArgs eType="Context" icon="10" nRep="13" status="Failed" Source="Action1" SourceLine="-1" >
-<Disp><![CDATA[Browser]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T11">
-<Obj plainTxt="False" ><![CDATA[Browser]]></Obj>
-<Details plainTxt="False" ><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:25]]></Time>
-<TimeTick>1570773265</TimeTick>
-<Step rID="T12">
-<Obj plainTxt="False" ><![CDATA[Run Error]]></Obj>
-<Details plainTxt="False" ><![CDATA[Object is disabled<BR/>Line (3): &quot;Browser(&quot;Browser&quot;).Navigate &quot;http://google.com/&quot;&quot;. ]]></Details>
-<Time><![CDATA[10/11/2019 - 1:54:25]]></Time>
-<TimeTick>1570773265</TimeTick>
-<NodeArgs eType="Replay" icon="11" nRep="18" status="Failed" Source="Action1" SourceLine="2" >
-<Disp><![CDATA[Run Error]]></Disp>
-<BtmPane vType="ViewerGen.SSViewerGen" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf2.xml]]></Path>
-<ASHilite><![CDATA[2557152]]></ASHilite>
-</BtmPane>
-</NodeArgs>
-</Step>
-<NodeArgs eType="Context" icon="10" nRep="17" status="Failed" Source="Action1" SourceLine="2" >
-<Disp><![CDATA[Browser]]></Disp>
-<BtmPane vType="ViewerGen.SSViewerGen" >
-<Path><![CDATA[ZIP::Act1\Row0\ssf1.xml]]></Path>
-<ASHilite><![CDATA[2557152]]></ASHilite>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="10/11/2019 - 1:54:22" eTime="10/11/2019 - 1:54:26" passed="1" failed="2" warnings="1" ></Summary>
-<NodeArgs eType="StartAction" icon="8" nRep="7" status="Failed" >
+<Summary sTime="10/11/2019 - 2:03:36" eTime="10/11/2019 - 2:03:41" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="15" nRep="7" status="Passed" >
 <Disp><![CDATA[Action1 Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Action rID="T13">
+<Action rID="T11">
 <AName><![CDATA[Action2]]></AName>
-<Summary sTime="10/11/2019 - 1:54:26" eTime="10/11/2019 - 1:54:26" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="8" nRep="20" >
+<Summary sTime="10/11/2019 - 2:03:41" eTime="10/11/2019 - 2:03:41" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="15" nRep="19" >
 <Disp><![CDATA[Action2 Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="7" nRep="6" status="Failed" >
+<NodeArgs eType="StartIteration" icon="14" nRep="6" status="Passed" >
 <Disp><![CDATA[GUITest1 Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Summary sTime="10/11/2019 - 1:54:22" eTime="10/11/2019 - 1:54:26" passed="1" failed="2" warnings="1" ></Summary>
-<NodeArgs eType="StartTest" icon="5" nRep="3" status="Failed" >
+<Summary sTime="10/11/2019 - 2:03:35" eTime="10/11/2019 - 2:03:41" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="12" nRep="3" status="Passed" >
 <Disp><![CDATA[Test GUITest1 Summary]]></Disp>
 </NodeArgs>
 </Doc>
