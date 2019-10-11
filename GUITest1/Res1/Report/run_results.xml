@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+Mobile.</Description>
+    <StartTime>2019-10-07 23:41:02</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"DbTable"</Name>
+    <Description>Verification type: String Content.
+Settings: Exact match - ON; Ignore space - ON; Match case - OFF.
+Results: Checked  1 cells;
+ Succeeded:	  1;
+Failed:	  0</Description>
+    <StartTime>2019-10-07 23:41:03</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>DbTable</Type>
+            <Name><![CDATA[DbTable]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Verification type: String Content.
+Settings: Exact match - ON; Ignore space - ON; Match case - OFF.
+Results: Checked  1 cells;
+ Succeeded:	  1;
+Failed:	  0]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[source]]></Name>
+            <Value><![CDATA[select * from student_list]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[dbuniqueid]]></Name>
+            <Value><![CDATA[{AD151BD4-DD96-480F-94D5-E5A23B0A6B78}]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[connectionstring]]></Name>
+            <Value><![CDATA[Provider=SQLOLEDB;Server=CHRISMCLENNB79A;Database=master;user id=uft;password=fut]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>DB CheckPoint</Type>
+      </Checkpoint>
+      <HtmlBottomFilePath>Resources\CheckPoints\6664b4a2-bd9f-4743-8918-2b9571bce0db\tableresult.js</HtmlBottomFilePath>
+      <IconKey>2c67581ae4f8407fadf9e0e15c7f60ab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>DbTable</Name>
+    <Description>DbTable</Description>
+    <StartTime>2019-10-07 23:41:02</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>DbTable</Type>
+            <Name><![CDATA[DbTable]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[DbTable]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[source]]></Name>
+            <Value><![CDATA[select * from student_list]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[dbuniqueid]]></Name>
+            <Value><![CDATA[{AD151BD4-DD96-480F-94D5-E5A23B0A6B78}]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[connectionstring]]></Name>
+            <Value><![CDATA[Provider=SQLOLEDB;Server=CHRISMCLENNB79A;Database=master;user id=uft;password=fut]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2c67581ae4f8407fadf9e0e15c7f60ab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2019-10-07 23:41:02</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>d38c8b12a100475485b5feb9fee361a5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2019-10-07 23:41:02</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>80cbbe2c312e4535a90a553eba11db6e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.53</ToolVersion>
+    <ToolVersionStringLiteral>14.53</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2019-10-07 23:41:01</StartTime>
+    <Duration>2</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2555a00c35ef431f8e0b22bd5c248f1d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>chrismclennan</User>
+      <CpuInfo>Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>4073</TotalMemory>
+      <HostName>CHRISMCLENNB79A</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2019-10-07 23:41:01</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.53</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.53</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
